@@ -4,10 +4,10 @@ import java.util.Scanner;
 
 public class FuzzCode {
     public static void main(String[] args) {
-        int n;
+
         Scanner scan = new Scanner(System.in);
         System.out.println("Enter number");
-        n = scan.nextInt();
+        int n = scan.nextInt();
 
         for (int i = 1; i <= n; i++) {
             if (i % 15 == 0) //number divisible by 15  print 'FizzBuzz' in place of number
